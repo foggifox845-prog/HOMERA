@@ -576,17 +576,17 @@ input::placeholder {
     /* Grids */
     .cards-grid { grid-template-columns: 1fr; gap: 20px; }
     .card { padding-right: 0; }
-    .card-header { margin-bottom: 10px; gap: 15px; }
+    .card-header { margin-bottom: 10px; gap: 15px; justify-content: center; }
     .card-icon { width: 48px; height: 48px; flex-shrink: 0; }
     .card-icon svg { width: 24px; height: 24px; }
     .card h3 { font-size: 1.2rem; }
     .card p { font-size: 0.95rem; }
     
     .steps-grid { grid-template-columns: 1fr; gap: 20px; }
-    .step-header { margin-bottom: 10px; gap: 15px; }
+    .step-header { margin-bottom: 10px; gap: 15px; justify-content: center; }
     .step-num { width: 48px; height: 48px; font-size: 1.1rem; flex-shrink: 0; }
     .step h3 { font-size: 1.2rem; }
-    .step p { font-size: 0.95rem; }
+    .step p { font-size: 0.95rem; text-align: center; }
     
     .step-arrow { display: none; }
     
